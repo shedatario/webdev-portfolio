@@ -2,10 +2,15 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Open Sans Condensed', sans-serif;
+	/*font-family: 'Open Sans Condensed', sans-serif;*/
+	font-family: 'Abel', sans-serif;
 }
 
+}
 
+.main{
+	background-color: #d2c1b1;
+}
 #port-jumbo{
 	border: 1px solid;
 	background-color: rgba(0, 0, 0, 0.2);
@@ -45,6 +50,8 @@
 	color: white;
 	text-shadow: 2px 2px black;
 	font-size: 30px;
+	font-family: 'Abel', sans-serif;
+
 }
 
 .btn a {
@@ -67,13 +74,14 @@
 	border: 1px solid black;
 }
 
+.btn a,
 .btn{
 	background-color: pink;
 	color: black;
 }
 #portfolio {
 	margin-top: 20px;
-	color: black;
+
 }
 
 footer{
@@ -81,5 +89,5 @@ footer{
 }
 
 .container{
-	background-color: #f4d2ac;
+	/*background-color: #f4d2ac;*/
 }

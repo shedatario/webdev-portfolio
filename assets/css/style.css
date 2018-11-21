@@ -6,7 +6,11 @@
 	font-family: 'Abel', sans-serif;
 }
 
+[class*="col-"] {
+	border: 2px solid black;
 }
+
+
 
 .main{
 	background-color: #d2c1b1;
@@ -72,6 +76,7 @@
 
 .card{
 	border: 1px solid black;
+	max-height: 500px;
 }
 
 .btn a,

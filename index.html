@@ -18,39 +18,55 @@
 	<!-- google fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
 
+	<!-- fav icon -->
+	<link rel = "icon" type= "images/gif/png" href = "assets/images/icon.png">
+
 	<!-- animate css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
 
+	<!-- hover css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/hover.css" media="all">
+
 	<!-- bootstrap css -->
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
 	<!-- external css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 <body>
+
 	<div class="main">
-		<section id = "jumbotron-section">
+		<section id = "jumbotron-section text-center">
 			<div id = "jumbo-div" class="jumbotron mb-0">
 				<div id = "port-jumbo" class="container">
-					<h1 class="text-center"> Sheree Datario </h1>
-					<p class="text-center lead">This is my amazing Web Dev Portfolio</p>
-					<button class="btn btn-block"> 
-						<a href="#portfolio">View my Portfolio</a>
-					</button>
+					<h1 class="text-center display-3"> Sheree Datario </h1>
+					<p class="text-center lead display-4">Full Stack Developer</p>
+					<a href="#portfolio">
+						<button class="btn2 btn-block hvr-grow"> 
+						View my Portfolio
+						</button>
+					</a>
 				</div> <!-- end jumbo container -->
 			</div><!-- end jumbotron -->
 		</section> <!-- end jumbo section -->
+	</div>
 
 		<section id="portfolio" class="container py-5">
+			<h3 class="h3-1 display-3 text-center mb-5">PROJECTS</h3>
 			<div class="row">
-				<div class="col-12 col-md-4 col-lg-4">
+				<div class="col-12 col-md-4 col-lg-4 mb-5">
 					<div class="card">
 						<img class="img-fluid card img-top" src = "assets/images/cap1.jpeg">
 						<div class="card-body">
 							<h3 class="card-title">Capstone 1 - Gogh and Paint</h3>
-							<p>This website features one of the most famous and influential painter in the history of Western art, Vincent Van Gogh.</p>
-							<button class="btn btn-outline-primary btn-block">Link to my website</button>
+							<p class = "text-justify">This website features one of the most famous and influential painter in the history of Western art, Vincent Van Gogh. It includes the details and history of his paintings.</p>
+							<a href=" https://shedatario.github.io/capstone1-datario/" target="_blank">
+								<button class="btn btn-outline-primary btn-block">
+								CAPSTONE 1
+								</button>
+							</a>
+							
 						</div>
 					</div> <!-- end card -->
 				</div> <!-- end cols -->
@@ -61,7 +77,9 @@
 						<div class="card-body">
 							<h3 class="card-title"> Capstone 2</h3>
 							<p>This text describes my website</p>
-							<button class="btn btn-outline-primary btn-block">Link to my website</button>
+							<p>This text describes my website</p>
+
+							<button class="btn btn-outline-primary btn-block">CAPSTONE 2</button>
 						</div>
 					</div> <!-- end card -->
 				</div> <!-- end cols -->
@@ -72,31 +90,46 @@
 						<div class="card-body">
 							<h3 class="card-title"> Capstone 3</h3>
 							<p>This text describes my website</p>
-							<button class="btn btn-outline-primary btn-block">Link to my website</button>
+							<p>This text describes my website</p>
+							<button class="btn btn-outline-primary btn-block">CAPSTONE 3</button>
 						</div>
 					</div> <!-- end card -->
 				</div> <!-- end cols -->
 			</div> <!-- end rows -->
 
-		</section> <!-- end section porfolio -->
-
-		<section class="container mb-5">
-			<h3 class="display-3 text-center"> About the Developer</h3>
+		<section class="container mb-5 mt-5">
+			<h3 class="h3-1 display-3 text-center mb-5"> About the Developer</h3>
 
 			<div class="row">
-				
 				<div class = "col-md-4 text-center">
 					<img class = "img-me" src= "assets/images/me.png">
 				</div> <!-- end left side -->
 
 				<div class="col-md-8">
 					<p class="text-justify"> Sheree Datario is a fresh graduate of STI College Southwoods who finished Bachelor of Science in Information Technology.She first attended a Full-Stack Development crash course in Web and Mobile Developers Ph last October of 2018. She is now a bootcamp trainee of Tuitt in Makati. She decided to join because she want to improve her skills and gain more knowledge in web development.</p>
+
+
+					<div class="imgs mt-3">
+						
+						<a href="https://gitlab.com/tuitt/students/batch19/shedatario">
+						<img class = "hvr-bob" src="assets/images/gitlab.png" target="_blank" alt="social">
+						</a>
+
+						<a href="https://github.com/shedatario" target="_blank">
+						<img class = "hvr-bob" src="assets/images/github.png" alt="social">
+						</a>
+
+						<a href="mailto:shedatario@gmail.com?cc=other@domain.com&subject=Email%20Subject">
+							<img class = "hvr-bob" src="assets/images/gmail.png" alt="social">
+						</a>
+					</div>
 				</div> <!-- end right side -->
 			</div> <!-- end row -->
 		</section> <!-- end about me -->
-	</div>
+		</section> <!-- end section porfolio -->
+	
 	<footer class="footer">
-		<p class="text-center p-3 mb-0">Sheree Datario | Tuitt Coding Bootcamp &copy; 2018</p>
+		<p class="text-center p-3 mb-0">Sheree Datario | Tuitt Coding Bootcamp 2018</p>
 	</footer>
 
 
@@ -114,12 +147,14 @@
 
 
 
+
 	<!-- Optional JavaScript -->
-	 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src = "assets/js/jquery-3.3.1.min.js"></script>
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  	
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-
-	<script src="assets/js/bootstrap.min.js"></script>
 </body>
 </html>

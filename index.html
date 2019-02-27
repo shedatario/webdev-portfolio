@@ -17,6 +17,7 @@
 
 	<!-- google fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
 	<!-- fav icon -->
 	<link rel = "icon" type= "images/gif/png" href = "assets/images/icon.png">
@@ -36,127 +37,114 @@
 </head>
 <body>
 
-	<div class="main">
-		<section id = "jumbotron-section text-center">
-			<div id = "jumbo-div" class="jumbotron mb-0">
-				<div id = "port-jumbo" class="container">
-					<h1 class="text-center display-3"> Sheree Datario </h1>
-					<p class="text-center lead display-4">Full Stack Developer</p>
-					<a href="#portfolio">
-						<button class="btn2 btn-block hvr-grow"> 
-						View my Portfolio
-						</button>
-					</a>
-				</div> <!-- end jumbo container -->
-			</div><!-- end jumbotron -->
-		</section> <!-- end jumbo section -->
-	</div>
+<div class="main">
 
-		<section id="portfolio" class="container py-5">
-			<h3 class="h3-1 display-3 text-center mb-5">PROJECTS</h3>
+	 <header id = "home" class="banner">
+            <article class="box">
+                <h1>Sheree Datario</h1>
+                <p class="p1">Full Stack Developer</p>
+                <a href="#portfolio">
+                        <button class="btn btn-block p-3" id="btn2"> 
+                        View my Projects
+                        </button>
+                    </a>
+            </article>
+        </header> <!-- end of banner -->
+<div id="portfolio">
+		<div class="container" id = "#top">
+			
+			<h1 class="text-center p-4">PROJECTS</h1>
 			<div class="row">
-				<div class="col-12 col-md-4 col-lg-4 mb-5">
-					<div class="card">
-						<img class="img-fluid card img-top" src = "assets/images/cap1.jpeg">
-						<div class="card-body">
-							<h3 class="card-title">Capstone 1 - Gogh and Paint</h3>
-							<p class = "text-justify">This website features one of the most famous and influential painter in the history of Western art, Vincent Van Gogh. It includes the details and history of his paintings.</p>
-							<a href=" https://shedatario.github.io/capstone1-datario/" target="_blank">
-								<button class="btn btn-outline-primary btn-block">
-								CAPSTONE 1
-								</button>
-							</a>
+				<div class="col-12 col-md-6 col-lg-4">
+
+					<div class="card mb-0" data-toggle = "modal" data-target = "#modal-1">
+						<div class="hovereffect">
+							<img class = "card-img-top img-fluid" src="assets/images/caps1.png">
+							<div class="overlay">
+								
+								<!-- <i class="fas fa-search-plus"></i> -->
 							
+							</div>
+						</div>
+
+
+						<div class="card-body text-center mb-4">
+							<h3 class="card-title text-center">Gogh and Paint</h3>
+							<p class="card-text text-justify">This website features one of the most famous and influential painter in the history of Western art, Vincent Van Gogh. It includes the details and history of his paintings.</p>
+							<a href="https://shedatario.github.io/capstone1-datario/" target="_blank" class="btn btn-dark">Open Website</a>
 						</div>
 					</div> <!-- end card -->
-				</div> <!-- end cols -->
+				</div> <!-- end 4 cols -->
 
-					<div class="col-12 col-md-4 col-lg-4">
-					<div class="card">
-						<img class="img-fluid card img-top" src = "assets/images/caps2.png">
-						<div class="card-body">
-							<h3 class="card-title">Capstone 2 - GownSpot</h3>
-							<p class="text-justify"></p>
-							<a href="https://salty-cove-50888.herokuapp.com/" target="_blank">
+				<div class="col-12 col-md-6 col-lg-4">
+					<div class="card mb-2" data-toggle = "modal" data-target = "#modal-2">
+						<div class="hovereffect">
+						<img class = "card-img-top img-fluid" src="assets/images/caps2.png">
+							<div class="overlay">
+								<!-- <i class="fas fa-search-plus"></i> -->
+							</div>
+						</div>
 
-							<button class="btn btn-outline-primary btn-block">CAPSTONE 2</button>
+						<div class="card-body text-center mb-4">
+							<h3 class="card-title text-center">GownSpot</h3>
+							<p class="card-text text-justify">GownSpot is an Asset Management Website that lets the users to view the gowns with different categories. They can also send a request to rent the specific gown they want and send their requests to the admin. While the admin can create, retrieve, edit and delete the gowns in the gowns page. They can also access the users details and can approve request from the users.</p>
+							<a href="https://salty-cove-50888.herokuapp.com/" target="_blank" class="btn btn-dark">Open Website</a>
 						</div>
 					</div> <!-- end card -->
-				</div> <!-- end cols -->
+				</div> <!-- end 4 cols -->
 
-					<div class="col-12 col-md-4 col-lg-4">
-					<div class="card">
-						<img class="img-fluid card img-top" src = "assets/images/c.jpeg">
-						<div class="card-body">
-							<h3 class="card-title"> Capstone 3</h3>
-							<p>This text describes my website</p>
-							<p>This text describes my website</p>
-							<button class="btn btn-outline-primary btn-block">CAPSTONE 3</button>
+				<div class="col-12 col-md-6 col-lg-4">
+					<div class="card mb-2" data-toggle = "modal" data-target = "#modal-3">
+						<div class="hovereffect">
+						<img class = "card-img-top img-fluid" src="assets/images/caps3.png">
+							<div class="overlay">
+								<!-- <i class="fas fa-search-plus"></i> -->
+							
+							</div>
+						</div>
+
+						<div class="card-body text-center mb-4">
+							<h3 class="card-title">Pet Hotel</h3>
+							<p class="card-text text-justify">Pet Hotel is a booking system that lets the users to book a hotel room for their pets while they are away.</p>
+							<a href="" target="_blank" class="btn btn-dark">Open Website</a>
 						</div>
 					</div> <!-- end card -->
-				</div> <!-- end cols -->
-			</div> <!-- end rows -->
-
-		<section class="container mb-5 mt-5">
-			<h3 class="h3-1 display-3 text-center mb-5"> About the Developer</h3>
-
-			<div class="row">
-				<div class = "col-md-4 text-center">
-					<img class = "img-me" src= "assets/images/me.png">
-				</div> <!-- end left side -->
-
-				<div class="col-md-8">
-					<p class="text-justify"> Sheree Datario is a fresh graduate of STI College Southwoods who finished Bachelor of Science in Information Technology.She first attended a Full-Stack Development crash course in Web and Mobile Developers Ph last October of 2018. She is now a bootcamp trainee of Tuitt in Makati. She decided to join because she want to improve her skills and gain more knowledge in web development.</p>
-
-
-					<div class="imgs mt-3">
-						
-						<a href="https://gitlab.com/tuitt/students/batch19/shedatario">
-						<img class = "hvr-bob" src="assets/images/gitlab.png" target="_blank" alt="social">
-						</a>
-
-						<a href="https://github.com/shedatario" target="_blank">
-						<img class = "hvr-bob" src="assets/images/github.png" alt="social">
-						</a>
-
-						<a href="mailto:shedatario@gmail.com?cc=other@domain.com&subject=Email%20Subject">
-							<img class = "hvr-bob" src="assets/images/gmail.png" alt="social">
-						</a>
-					</div>
-
-				</div> <!-- end card -->
-			</div> <!-- end cols -->
-		</div> <!-- end rows -->
-
+				</div> <!-- end 4 cols -->
 	</section> <!-- end section porfolio -->
 
-	<section class="container mt-5 mb-5 p-3">
-		<h3 class="display-3 text-center"> About the Developer</h3>
+	<section class="about">
+		
+	</section>
 
-		<div class="row">
-			<div class = "col-md-4">
-				<img class = "img-me" src= "assets/images/me.png">
-			</div> <!-- end left side -->
+		
+	<!-- <div class="row">
+		<div class="col-md-4">
+			<div class="card" style="width: 18rem;">
+	  <img class="card-img-top" src="assets/images/caps1.png" alt="Card image cap">
+	  <div class="card-body">
+	    <h5 class="card-title">Gogh and Paint</h5>
+	    <p class="card-text">This website features one of the most famous and influential painter in the history of Western art, Vincent Van Gogh. It includes the details and history of his paintings.</p>
+	  </div>
+	  <ul class="list-group list-group-flush">
+	    <li class="list-group-item">HTML</li>
+	    <li class="list-group-item">CSS</li>
+	    <li class="list-group-item">Boostrap</li>
+	  </ul>
+	  <div class="card-body">
+	    <a href="https://shedatario.github.io/capstone1-datario/" target="_blank" class="card-link">Open Website</a>
+	  </div>
+	</div>
+		</div>
+	</div> -->
+	
 
-			<div class="col-md-8">
+	
+</div>
+	
 
-				<p>Sheree T. Datario is a fresh graduate of STI College Southwoods who took up Bachelor of Science in Information Technology. She had her first Full-Stack Development Training in WebMobilePH
-				 is now a bootcamp trainee of Tuitt in Makati. She decided to join because she want to improve her skills and gain more knowledge in web development.</p>
+	
 
-			</p>
-			</div> <!-- end right side -->
-		</div> <!-- end row -->
-	</section> <!-- end about me -->
-
-
-				</div> <!-- end right side -->
-			</div> <!-- end row -->
-		</section> <!-- end about me -->
-		</section> <!-- end section porfolio -->
-
-	<footer class="footer">
-		<p class="text-center p-3 mb-0">Sheree Datario | Tuitt Coding Bootcamp 2018</p>
-	</footer>
+	
 
 
 

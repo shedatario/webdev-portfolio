@@ -12,7 +12,8 @@
 }*/
 
 .main{
-	background-color: black;
+	/*background-color: black;*/
+	background-color: rgba(0,0,0,0.5);
 	height: 100vh;
 	/*margin-left: 10%;*/
 
@@ -254,7 +255,7 @@ transition-delay:.2s;
 	color: #FBBA72;
 	background-color: #3C1518;
 }*/
-/*
+
 .btn:hover{
 	background-color: #FBBA72;
 	color: #3C1518;
@@ -263,7 +264,7 @@ transition-delay:.2s;
 .btn-g:hover{
 	background-color: #FBBA72;
 	color: #3C1518;
-}*/
+}
 
 .img-fluid-modal{
 	height: 100%;
